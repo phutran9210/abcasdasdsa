@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+
+  overflow: hidden;
+  background-color: black;
+}
+nav li {
+  float: left;
+}
+nav li.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 8px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+nav li a:hover {
+  background-color: #333333;
+}
+.question-content {
+  text-align: center;
+  padding: 10%;
+  font-size: 3em;
+}
+.btn-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30%;
+}
+#like {
+  font-size: 1.3em;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  background-color: #ff3333;
+}
+#dislike {
+  font-size: 1.3em;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  background-color: #336ebd;
+}
